@@ -20,6 +20,9 @@ function App() {
         
       <Saudacao
         logado={logado} />
+
+        <Saudacao
+        logado={logado} />
     </>
   )
 }
