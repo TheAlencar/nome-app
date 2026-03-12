@@ -1,4 +1,5 @@
 import './App.css'
+import Saudacao from './components/Saudacao'
 
 const nome = 'Guilherme'
 
@@ -16,8 +17,9 @@ function App() {
       <h3>Olá meu nome é {nome}</h3>
 
       <h2>Idade: {10+14}</h2>
-
-      {logado ? <p>Usuário logado</p> : <p>Faça login para acessar</p>}
+        
+      <Saudacao
+        logado={logado} />
     </>
   )
 }
